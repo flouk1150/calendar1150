@@ -57,9 +57,6 @@ public class Controller implements Initializable{
     protected   TextField time;
 
 
-
-
-
     private int number = 1;
 
     ObservableList<Table> data = FXCollections.observableArrayList(
@@ -105,7 +102,7 @@ public class Controller implements Initializable{
             number++;
             data.add(t);
             clearForm();
-            
+
         }
     }
     public void clearForm(){

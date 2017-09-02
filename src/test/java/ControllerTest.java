@@ -8,6 +8,13 @@ public class ControllerTest {
     @Test
     public void testTime(){
         Assert.assertEquals(Controller.test(),"16.00");
+
+
+    }
+
+    @Test
+    public void test(){
+        fail("Hello World");
     }
 
 }
